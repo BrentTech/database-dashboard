@@ -1,0 +1,42 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background: whitesmoke;
+}
+ul {
+  list-style-type: none;
+  line-height: 1.6em;
+  font-size: 1.1em;
+}
+h1 {
+  width: 100%;
+  font-size: 2.8em;
+  margin: 2% auto 3% auto;
+  text-align: center;
+}
+section {
+  height: 70%;
+  background-color: gainsboro;
+  width: 80%;
+  margin: 0px auto;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+span {
+  font-size: 1.2;
+  .read {
+    color: blue;
+  }
+  .write {
+    color: green;
+  }
+  .delete {
+    color: red;
+  }
+  .update {
+    color: yellow;
+  }
+}
